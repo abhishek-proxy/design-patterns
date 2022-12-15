@@ -18,6 +18,7 @@ public class AnimalService {
 
     public ValidationResult validateAnimal() {
         ValidationResult validationResult = new ValidationResult(true, new ArrayList<>());
-        return validator.validate(animal, validationResult);
+        validator.validate(animal, validationResult);
+        return validationResult;
     }
 }

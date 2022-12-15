@@ -9,7 +9,6 @@ import java.util.List;
 public class CatValidator implements IValidator{
 
     @Override
-    public ValidationResult validate(IAnimal animal, ValidationResult validationResult) {
-        return validationResult;
+    public void validate(IAnimal animal, ValidationResult validationResult) {
     }
 }

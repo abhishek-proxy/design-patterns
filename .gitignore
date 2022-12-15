@@ -4,3 +4,5 @@
 *.ipr
 out/
 .DS_Store
+.gradle
+chainOfResponsibility/build
