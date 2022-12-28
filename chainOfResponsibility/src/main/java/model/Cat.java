@@ -13,16 +13,16 @@ public class Cat implements IAnimal {
 
     @Override
     public Integer getLegs() {
-        return null;
+        return legs;
     }
 
     @Override
     public Boolean canFly() {
-        return null;
+        return canFly;
     }
 
     @Override
     public Boolean canSwim() {
-        return null;
+        return canSwim;
     }
 }

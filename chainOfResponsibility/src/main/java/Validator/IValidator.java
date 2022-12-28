@@ -5,4 +5,5 @@ import model.IAnimal;
 
 public interface IValidator {
     public void validate(IAnimal animal, ValidationResult validationResult);
+    public void setNextValidator(IValidator validator);
 }
